@@ -40,3 +40,14 @@ if (!$con)
 
 ?>
 ```
+
+We have 2 ways to add this connection to our code, by adding the all code in the start or creating a file named dbcon.php and inserting the
+```bash
+include('dbcon.php');
+```
+
+The second way it's better to create a clean code!
+
+Ensure you customize the database connection details (host, username, password, database) according to your environment.
+
+Feel free to explore and adapt the code to fit your specific requirements. If you have any questions or suggestions, please don't hesitate to reach out!
